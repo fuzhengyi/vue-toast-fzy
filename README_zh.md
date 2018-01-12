@@ -1,9 +1,9 @@
 # vue2-toast
-基于vue2的移动端 toast 插件。 [English document](https://github.com/lin-xin/vue-toast/blob/master/README.md)
+基于vue2的移动端 toast 插件。 [English document](https://github.com/fuzhengyi/vue-toast-fzy/blob/master/README.md)
 
 <p>
-  <a href="https://www.npmjs.com/package/vue2-toast"><img src="https://img.shields.io/npm/dm/vue2-toast.svg" alt="Downloads"></a>
-  <a href="https://www.npmjs.com/package/vue2-toast"><img src="https://img.shields.io/npm/v/vue2-toast.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/vue2-toast-fzy"><img src="https://img.shields.io/npm/dm/vue2-toast.svg" alt="Downloads"></a>
+  <a href="https://www.npmjs.com/package/vue2-toast-fzy"><img src="https://img.shields.io/npm/v/vue2-toast.svg" alt="Version"></a>
   <br>
 </p>
 
@@ -13,20 +13,20 @@
 安装:
 
 ```
-npm install vue2-toast -S
+npm install vue2-toast-fzy -S
 ```
 引入:
 
 ```javascript
-import 'vue2-toast/lib/toast.css';
-import Toast from 'vue2-toast';
+import 'vue2-toast-fzy/lib/toast.css';
+import Toast from 'vue2-toast-fzy';
 Vue.use(Toast);
 ```
 或者使用配置
 
 ```javascript
-import 'vue2-toast/lib/toast.css';
-import Toast from 'vue2-toast';
+import 'vue2-toast-fzy/lib/toast.css';
+import Toast from 'vue2-toast-fzy';
 Vue.use(Toast, {
     defaultType: 'center',
     duration: 3000,
@@ -43,7 +43,7 @@ Vue.use(Toast, {
         <button @click="openTop()">top</button>
         <button @click="openCenter()">center</button>
         <button @click="openBottom()">bottom</button>
-		<button @click="openLoading()">loading</button>
+	<button @click="openLoading()">loading</button>
     </div>
 </template>
 export default {
