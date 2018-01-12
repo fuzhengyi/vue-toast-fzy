@@ -1,0 +1,23 @@
+{
+  "name": "vue2-toast-fzy",
+  "version": "1.0.0",
+  "description": "A mobile toast plugin for vue2.",
+  "keywords":["vue.js","vue-plugin","toast","fzy-vue-plugin"],
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bugs": {  
+  	"url": "https://github.com/fuzhengyi/vue-toast-fzy/issues",
+  	"email": "justfu1995@gmail.com"
+  },
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/fuzhengyi/vue-toast-fzy.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fuzhengyi",
+  "license": "MIT"
+}
